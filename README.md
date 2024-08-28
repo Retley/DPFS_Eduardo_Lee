@@ -13,3 +13,5 @@ https://www.thecolvinco.com/es/comprar-plantas-online
 https://www.germigarden.com/es/
 https://www.tusplantasonline.com/
 https://verdecora.es/316989-comprar-plantas-flores-y-semillas
+https://www.plants.com/
+https://bloomscape.com/
