@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Jardín de Demeter</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="body-bg">
+    <%- include('partials/header') %>
+
+    <main class="main-container">
+        <div class="register-container">
+            <h2 class="register-title">Sign up</h2>
+            <form action="/register" method="POST" class="register-form">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your name" class="form-input">
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Email" class="form-input">
+                </div>
+                <div class="form-group">
+                    <input type="password" name="password" placeholder="Password" class="form-input">
+                </div>
+                <div class="form-group text-center">
+                    <button type="submit" class="btn-primary">Sign up</button>
+                </div>
+            </form>
+            <p class="terms-text">
+                By signing up you agree to our <a href="/terms" class="terms-link">Terms & Conditions</a>
+            </p>
+        </div>
+    </main>
+
+    <%- include('partials/footer') %>
+</body>
+</html>

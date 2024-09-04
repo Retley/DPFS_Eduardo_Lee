@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #32a852; /* Color verde superior */
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #006400; /* Color de botones */
+}
+
+.nav-buttons button {
+    background-color: #228B22; /* Verde de los botones */
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.account-btn {
+    background-color: #00a862; /* Verde de la cuenta */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.header-title {
+    background-color: #f8bc5a; /* Color amarillo */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-title h1 {
+    margin: 0;
+    color: #333;
+}
+
+h1, h3 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+#main_div{
+    flex: 2;
+}
+
+.cua_div{
+    border: 1px solid #ddd; 
+    padding: 1rem; 
+    margin-bottom: 1rem;
+}
+
+.cua2_div{
+    display: flex; 
+    align-items: center;
+}
+
+.div_esc{
+    flex: 1;
+}
+
+.div_input{
+    width: 50px;
+}
+
+#div_carr{
+    flex: 1; 
+    margin-left: 2rem;
+}
+
+#div2_carr{
+    border: 1px solid #ddd; 
+    padding: 1rem;
+}
+
+#div_seguir{
+    text-align: center; 
+    margin-top: 2rem;
+}
+
+section{
+    display: flex; 
+    justify-content: space-between;
+}
+
+img {
+    border-radius: 8px;
+    width: 100px; 
+    height: 100px; 
+    margin-right: 1rem;
+}
+
+input{
+    width: 25px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #32a852;
+    color: white;
+    padding: 20px;
+}
+
+#btn_carr{
+    width: 100%; 
+    padding: 1rem;
+    background-color: #28a745; 
+    color: white; 
+    border: none; 
+    border-radius: 4px;
+}
+
+#btn_seguir{
+    padding: 1rem 3rem; 
+    background-color: #28a745; 
+    color: white; 
+    border: none; 
+    border-radius: 50px;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-left ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-left ul li {
+    margin: 5px 0;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-right form {
+    margin-bottom: 10px;
+}
+
+.footer-right .social-icons a {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-right .social-icons a:hover {
+    text-decoration: underline;
+}

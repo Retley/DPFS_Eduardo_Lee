@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #32a852; /* Color verde superior */
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #006400; /* Color de botones */
+}
+
+.nav-buttons button {
+    background-color: #228B22; /* Verde de los botones */
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.account-btn {
+    background-color: #00a862; /* Verde de la cuenta */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.header-title {
+    background-color: #f8bc5a; /* Color amarillo */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-title h1 {
+    margin: 0;
+    color: #333;
+}
+
+.section-products {
+    padding: 20px;
+}
+
+.section-products h2 {
+    border-bottom: 2px solid #32a852; /* Línea debajo del título */
+    padding-bottom: 5px;
+}
+
+.product-row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.product-box {
+    width: 30%;
+    height: 150px;
+    background-color: #eaeaea;
+    border: 1px solid #ccc;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #32a852;
+    color: white;
+    padding: 20px;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-left ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-left ul li {
+    margin: 5px 0;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-right form {
+    margin-bottom: 10px;
+}
+
+.footer-right .social-icons a {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-right .social-icons a:hover {
+    text-decoration: underline;
+}

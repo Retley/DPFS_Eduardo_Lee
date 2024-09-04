@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jardín de Demeter - Login</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    
+    <header>
+        <div class="header-top">
+            <div class="nav-buttons">
+                <button>Tipo de plantas</button>
+                <button>Regalos</button>
+                <button>plantas para salas</button>
+                <button>Cuidado de plantas</button>
+                <button>Aprende</button>
+            </div>
+            <button class="account-btn">Cuenta</button>
+        </div>
+        <div class="header-title">
+            <h1>El Jardín de Demeter</h1>
+        </div>
+    </header>
+
+    <main>
+        <div id="div_main">
+            <h2>Sign in</h2>
+            <p>Entre al jardin mas bello de todo el olimpo!</p>
+            <form action="/login" method="POST">
+                <div class="fom_div" >
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required >
+                </div>
+                <div class="fom_div" >
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required >
+                </div>
+                <button type="submit" id="presionar">Sign in</button>
+            </form>
+        </div>
+    </main>
+
+    
+</body>
+</html>
